@@ -155,16 +155,16 @@ local Window = SpeedHubX:CreateWindow({
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "home" }),wait(1),
     Item = Window:AddTab({ Title = "Item", Icon = "swords" }),wait(),
-    Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),wait(1),
-    Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),wait(1),
-    Island = Window:AddTab({ Title = "Island", Icon = "palmtree" }),wait(1),
-    Raid = Window:AddTab({ Title = "Dungeon", Icon = "sword" }),wait(1),
-    RaceV4 = Window:AddTab({ Title = "Race v4", Icon = "chevrons-right" }),wait(1),
+    Stats = Window:AddTab({ Title = "Chỉ Số", Icon = "plus-circle" }),wait(1),
+    Shop = Window:AddTab({ Title = "Cửa Hàng", Icon = "shopping-cart" }),wait(1),
+    Island = Window:AddTab({ Title = "Đảo", Icon = "palmtree" }),wait(1),
+    Raid = Window:AddTab({ Title = "Raid", Icon = "sword" }),wait(1),
+    RaceV4 = Window:AddTab({ Title = "Race V4", Icon = "chevrons-right" }),wait(1),
     Fruit = Window:AddTab({ Title = "Fruit", Icon = "apple" }),wait(1),
     ESP = Window:AddTab({ Title = "ESP", Icon = "mountain-snow" }),wait(1),
     Misc = Window:AddTab({ Title = "Miscellaneous", Icon = "list-plus" }),wait(1),
     Visual = Window:AddTab({ Title = "Visual", Icon = "scan-face" }),wait(1),
-    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" }),wait(1),
+    Settings = Window:AddTab({ Title = "Cài Đặt", Icon = "settings" }),wait(1),
 }
 
 if game.CoreGui:FindFirstChild("SpeedHubXOpenClose") then
